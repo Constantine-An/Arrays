@@ -1,0 +1,12 @@
+function Random(){
+	var i, j, k;
+	i = prompt("what is the smallest number");
+	j = prompt("what is the biggest number");
+	k = prompt("how many number be required");
+	var array[k];
+	for(var m=1; m<=k; m++)
+	{
+		document.getElementById("demo").innerHTML = Math.floor(Math.random() * (j - i) + i;
+		document.getElementById("demo").innerHTML = ", ";
+	}
+}

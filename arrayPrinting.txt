@@ -1,0 +1,23 @@
+function printArray(){
+var text, fLen, i;
+var student = ["An", "JM", "Eric", "Ken"];
+fLen = student.length;
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+    text += "<li>" + student[i] + "</li>";
+}
+text += "</ul>";
+document.getElementById("array").innerHTML = text;
+}
+function printArray2()
+{
+var text, fLen, i;
+var animal= ["tiger", "panda", "lion", "bear", “monkey”];
+fLen = animal.length;
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+    text += "<li>" + animal[i] + "</li>";
+}
+text += "</ul>";
+document.getElementById("array2").innerHTML = text;
+}

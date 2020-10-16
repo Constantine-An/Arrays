@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Random Array</title>
+</head>
+<body>
+<script src ="RandomMath.js"></script>
+<h2>JavaScript Math.random()</h2>
+
+<p>Random</p>
+ <td><button type="button" onclick="Random()">Random</button> <p id = "array"></p></td>
+</body>
+</html>

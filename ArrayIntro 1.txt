@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+</head>
+
+<body >
+
+<script src ="arrayPrinting.js"></script>
+
+<table width="100%" border="1">
+  <tbody>
+    <tr>
+      <td>List produced in HTML</td>
+      <td>List made by javaScript from Array</td>
+      
+      <td>List printed without loop</td>
+      <td>Array of Multiples</td>
+    </tr>
+    <tr>
+      <td><ul>
+      		<li> Online lessons</li>
+      		<li> Can be fun</li>
+      		<li> seeing friends</li>
+      		<li> and working from home</li>
+      </ul></td>
+      <td><button type="button" onclick="printArray()">Array</button> <p id = "array"></p></td>
+     
+      <td><button type="button" onclick="printArray2()">Array2</button> <p id = "array2"></p></td>
+<td><button type="button" onclick="makeArrayMultiples()">multiple17</button> <p id = "multiple17"></p></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
